@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 function Home() {
   return (
     <section className="hero">
@@ -16,9 +17,9 @@ function Home() {
             Computer Vision and Web Development.
           </p>
 
-          <Link to="/projects"> View Projects</Link>
-            
-          
+          <Link to="/projects" className="btn">
+            View Projects
+          </Link>
         </div>
 
         <div className="hero-image">
