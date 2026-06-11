@@ -1,0 +1,167 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#020617;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.navbar ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+.navbar a{
+text-decoration:none;
+color:white;
+font-weight:600;
+}
+
+.hero{
+min-height:90vh;
+display:flex;
+align-items:center;
+padding:50px 10%;
+}
+
+.hero-content{
+display:flex;
+justify-content:space-between;
+align-items:center;
+width:100%;
+gap:50px;
+}
+
+.hero-text h1{
+font-size:60px;
+margin-bottom:10px;
+}
+
+.hero-text h2{
+color:#38bdf8;
+margin-bottom:20px;
+}
+
+.hero-text p{
+font-size:18px;
+line-height:1.8;
+margin-bottom:25px;
+}
+
+.btn{
+background:#38bdf8;
+padding:12px 30px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+.hero-image img{
+width:320px;
+height:320px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid #38bdf8;
+}
+
+.about,
+.projects,
+.contact{
+padding:80px 10%;
+}
+
+.about h2,
+.projects h2,
+.contact h2{
+text-align:center;
+margin-bottom:40px;
+font-size:40px;
+}
+
+.skills ul{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+margin-top:20px;
+}
+
+.skills li{
+background:#1e293b;
+padding:10px 20px;
+border-radius:8px;
+list-style:none;
+}
+
+.project-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.project-card{
+background:#1e293b;
+padding:20px;
+border-radius:15px;
+transition:0.4s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+}
+
+.project-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+.project-card h3{
+margin-bottom:15px;
+}
+
+.project-card p{
+margin-bottom:10px;
+}
+
+.project-card a{
+color:#38bdf8;
+text-decoration:none;
+font-weight:bold;
+}
+
+.contact-box{
+background:#1e293b;
+padding:30px;
+border-radius:15px;
+max-width:700px;
+margin:auto;
+}
+
+.contact-box p{
+margin-bottom:20px;
+}
+
+.footer{
+background:#020617;
+padding:20px;
+text-align:center;
+}
