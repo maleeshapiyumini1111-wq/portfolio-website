@@ -16,9 +16,9 @@ function Home() {
             Computer Vision and Web Development.
           </p>
 
-          <a href="/projects" className="btn">
-            View Projects
-          </a>
+          <Link to="/projects"> View Projects</Link>
+            
+          
         </div>
 
         <div className="hero-image">
