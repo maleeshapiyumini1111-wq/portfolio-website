@@ -22,10 +22,7 @@ function Home() {
         </div>
 
         <div className="hero-image">
-          <img
-            src="/profile.jpg"
-            alt="Profile"
-          />
+           <img src={process.env.PUBLIC_URL + '/profile.jpg'} alt="Profile" />
         </div>
 
       </div>
